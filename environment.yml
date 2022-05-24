@@ -1,0 +1,12 @@
+name: WIO_workshop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - cf_xarray
+  - erddapy
+  - ioos_qc
+  - jupyter
+  - matplotlib-base
+  - pandas
+  - xarray
