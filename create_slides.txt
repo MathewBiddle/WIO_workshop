@@ -1,4 +1,4 @@
-jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --to slides --post serve --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t
+jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --to slides --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t
 
 https://github.com/hakimel/reveal.js/tree/master/css/theme/source
 
