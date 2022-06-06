@@ -1,4 +1,6 @@
-# WIO_workshop
+
+
+# Western Indian Ocean (WIO) Workshop
 This repository contains materials for the [Regional Training Workshop on Observing the Coastal and Marginal Seas in the Western Indian Ocean](https://www.clivar.org/events/regional-training-workshop-observing-coastal-and-marginal-seas-western-indian-ocean) 
 session on best practices including data standards and quality assurance.
 
@@ -11,6 +13,8 @@ tutorials and examples of how to access and utilize the many IOOS technologies a
 Slides are generated from the [Jupyter Notebook](https://github.com/MathewBiddle/WIO_workshop/blob/main/Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb) 
 and hosted online using [GitHub Pages](https://pages.github.com/) at the following url: 
 <https://mathewbiddle.github.io/WIO_workshop/Western-Indian-Ocean-Workshop-ioos_qc-demo.slides.html>
+
+You can run and interact with the notebook via [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MathewBiddle/WIO_workshop/HEAD?labpath=Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb)
 
 To generate the slides using [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html) and the notebook in this
 repository, run:
