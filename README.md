@@ -1,4 +1,6 @@
 
+[![DOI](https://zenodo.org/badge/495949275.svg)](https://zenodo.org/badge/latestdoi/495949275)
+
 
 # Western Indian Ocean (WIO) Workshop
 This repository contains materials for the [Regional Training Workshop on Observing the Coastal and Marginal Seas in the Western Indian Ocean](https://www.clivar.org/events/regional-training-workshop-observing-coastal-and-marginal-seas-western-indian-ocean) 
