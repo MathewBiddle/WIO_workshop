@@ -1,0 +1,21 @@
+[workspace]
+authors = ["Filipe Fernandes <ocefpaf@gmail.com>"]
+channels = ["conda-forge"]
+name = "WIO_workshop"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+cf_xarray = ">=0.10.6,<0.11"
+ioos_qc = ">=2.2.1,<3"
+jupyter = ">=1.1.1,<2"
+matplotlib-base = ">=3.10.3,<4"
+pandas = ">=2.3.1,<3"
+xarray = ">=2025.6.1,<2026"
+netcdf4 = ">=1.7.2,<2"
+miktex = ">=24.4,<25"
+# Linux
+#texlive-core = ">=20230313,<20230314"
