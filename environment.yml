@@ -10,3 +10,4 @@ dependencies:
   - matplotlib-base
   - pandas
   - xarray
+  - netCDF4
