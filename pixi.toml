@@ -6,8 +6,8 @@ platforms = ["win-64", "linux-64", "osx-64"]
 version = "1.0.0"
 
 [tasks]
-webpdf = "jupyter nbconvert --to webpdf Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --allow-chromium-download"
-pdf = "jupyter nbconvert --to pdf Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb"
+pdf = "jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --output-dir=./docs --to pdf --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t"
+webpdf = "jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --output-dir=./docs --to webpdf --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t"
 
 [dependencies]
 python = "3.10.*"
