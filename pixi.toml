@@ -7,6 +7,7 @@ version = "1.0.0"
 
 [tasks]
 pdf = "jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --output-dir=./docs --to pdf --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t"
+tectonic = "jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --output-dir=./docs --to pdf --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t --config=jupyter_nbconvert_config.py"
 webpdf = "jupyter nbconvert Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --output-dir=./docs --to webpdf --SlidesExporter.reveal_theme=simple --SlidesExporter.theme=light --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number=c/t"
 
 [dependencies]
@@ -20,6 +21,7 @@ xarray = ">=2025.6.1,<2026"
 netcdf4 = ">=1.7.2,<2"
 playwright = ">=1.54.1,<2"
 playwright-python = ">=1.54.0,<2"
+tectonic = ">=0.15.0,<0.16"
 
 [target.win-64.host-dependencies]
 miktex = ">=24.4,<25"
