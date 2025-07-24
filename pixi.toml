@@ -1,12 +1,13 @@
 [workspace]
-authors = ["Filipe Fernandes <ocefpaf@gmail.com>"]
+authors = ["Mathew Biddle"]
 channels = ["conda-forge"]
-name = "WIO_workshop"
+name = "Western Indian Ocean Workshop"
 platforms = ["win-64", "linux-64", "osx-64"]
-version = "0.1.0"
+version = "1.0.0"
 
 [tasks]
-pdf = "jupyter nbconvert --to webpdf Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --allow-chromium-download"
+webpdf = "jupyter nbconvert --to webpdf Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb --allow-chromium-download"
+pdf = "jupyter nbconvert --to pdf Western-Indian-Ocean-Workshop-ioos_qc-demo.ipynb"
 
 [dependencies]
 python = "3.10.*"
